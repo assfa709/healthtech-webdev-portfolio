@@ -11,7 +11,7 @@ const textElement = document.getElementById("dynamic-text")
     //textElement.textContent = "Data loaded successfully! Welcome to my digital health portfolio"
     //textElement.style.color = "#E67E22"; // Change tect color to orange
     //textElement.style.fontWeight = "bold"; // Make it bold 
-})
+//})
 
 // Grab the new calculator elments
 const clacButton = document.getElementById("calc-btn")
