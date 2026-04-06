@@ -1,0 +1,76 @@
+body {
+    background-color: #F8F9FC; /*Off-white*/
+    color: #1e2a3a; /*Almost Black*/
+    font-family: Arial, Sans-serif;
+}
+
+h1 {
+    color: #1a3a5f; /*Deep Navy*/
+}
+
+/* Target the navbar class*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+}
+
+/* Target the links*/
+.nav-links a {
+    text-decoration: none;
+    color: #1A3A5F;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* Target the hero section*/
+.hero-section {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+/* Targeting the button*/
+.btn-primary {
+    background-color: #E67E22;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #E67E22;
+}
+
+/* When hovering over the button, make it darker orange and lift it up*/
+.btn-primary:hover {
+    background-color: #D35400;
+    transform: translateY(-10px);  /* Lifts the button up 3 pixels*/
+    box-shadow: 0px 5px 15px rgba(230, 126, 34, 0.4) /* Add an orange glowing shadow*/
+}
+
+/* MOBILE RESPONSIVE RULES ---*/
+@media (max-width: 768px) {
+    /* Change the navbar layout from a row to a column*/
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    /* Adding space between the logo and the links*/
+    .nav-links {
+        margin-top: 15px;
+    }
+
+    /* Shring the main hero text slightly for small screen*/
+    .hero-section h1 {
+        font-size: 24px;
+    }
+}
