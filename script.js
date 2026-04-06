@@ -3,14 +3,14 @@ const button = document.getElementById("action-btn")
 const textElement = document.getElementById("dynamic-text")
 
 // 2. Add an 'event listener' to the button. It waits for a click.
-button.addEventListener("click", function(event){
+//button.addEventListener("click", function(event){
     // Prevent the link from jumping to the top of the page
-    event.preventDefault();
+    //event.preventDefault();
 
     // 3. Change the dynamicaly
-    textElement.textContent = "Data loaded successfully! Welcome to my digital health portfolio"
-    textElement.style.color = "#E67E22"; // Change tect color to orange
-    textElement.style.fontWeight = "bold"; // Make it bold 
+    //textElement.textContent = "Data loaded successfully! Welcome to my digital health portfolio"
+    //textElement.style.color = "#E67E22"; // Change tect color to orange
+    //textElement.style.fontWeight = "bold"; // Make it bold 
 })
 
 // Grab the new calculator elments
